@@ -2,7 +2,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.btn {
+.my__btn {
   border: none;
   padding: 0.5rem 1rem;
 }
@@ -11,10 +11,27 @@ body {
   background-color: #8b3dff;
   color: white;
   font-weight: 500;
+  border-radius: 5px;
 }
 
 .btn__light {
   background-color: #f2f3f5;
   color: black;
+  border-radius: 5px;
+
   font-weight: 500;
+}
+
+.bg__gold {
+  color: gold;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+}
+
+.special__text {
+  color: #8b3dff;
+  border-bottom: 1px solid #8b3dff;
+  margin: 0 3px;
 }

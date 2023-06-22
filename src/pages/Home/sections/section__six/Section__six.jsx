@@ -3,7 +3,9 @@ import "./style.css";
 const Section__six = () => {
   return (
     <div className="section__six container d-flex flex-column align-items-center justify-content-start ">
-      <h1 className="text-center">Create your best work, together</h1>
+      <h1 className="text-center heading mb-4">
+        Create your best work, together
+      </h1>
       <p className="text-center">
         Try Canva for Teams, the all-in-one solution for teams of all sizes to
         create and collaborate together.

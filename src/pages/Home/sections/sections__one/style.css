@@ -1,16 +1,19 @@
 .section__one {
-  height: 95vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center;
-  
-  */
 }
 
-.section__one-container-1 {
+.section__one-container-1 h1 {
+  font-size: 2.9rem;
+  font-weight: bold;
 }
-
+.section__one-container-1 h5 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgb(114, 114, 114);
+}
 .section__one-container-2 {
   position: relative;
   height: 100vh;
@@ -28,5 +31,5 @@
 
 .video__container video {
   position: absolute;
-  height: 90%;
+  height: 100%;
 }

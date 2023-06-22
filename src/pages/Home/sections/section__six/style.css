@@ -2,6 +2,16 @@
   height: 100vh;
 }
 
+.section__six h1 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.section__six p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: rgb(108, 108, 108);
+}
 .section__six ul {
   list-style: none;
 }

@@ -1,3 +1,7 @@
+.navbar__bg {
+  background-color: white;
+}
+
 .collapse {
   position: relative;
 }
@@ -35,9 +39,13 @@ input:active {
 }
 
 .search__input input .navbar-collapse ul li {
+  font-size: 0.7rem;
+}
+
+.navbar-collapse ul li {
   font-size: 0.9rem;
 }
 
 .navbar-collapse ul li span {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }

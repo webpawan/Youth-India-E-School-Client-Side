@@ -3,7 +3,7 @@ import "./style.css";
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg  shadow-sm sticky-top py-3 ">
+      <nav class="navbar navbar__bg navbar-expand-lg  shadow-sm sticky-top py-3 ">
         <div class="container-fluid mx-3">
           <a class="navbar-brand " href="#">
             <img
@@ -89,9 +89,9 @@ const Navbar = () => {
                 </svg>
               </form>
             </ul>
-            <button className="btn btn__light me-3">Log in</button>
+            <button className="my__btn btn__light me-3">Log in</button>
 
-            <button className="btn btn__purple">Sign up</button>
+            <button className="my__btn btn__purple">Sign up</button>
           </div>
         </div>
       </nav>

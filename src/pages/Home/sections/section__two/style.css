@@ -1,14 +1,36 @@
 .section__two {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section__two-peragraph {
-  margin-top: 7rem;
+.section__two h1 {
+  font-size: 1.9rem;
+  font-weight: 800;
 }
 
-.card {
+.section__two--card-container {
+  width: 90%;
+}
+
+.my__card {
   border: none;
+  outline: none;
+}
+
+.card-body h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.section__two-peragraph {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  padding: 0;
 }
