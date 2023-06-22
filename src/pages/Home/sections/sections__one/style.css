@@ -1,0 +1,32 @@
+.section__one {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center;
+  
+  */
+}
+
+.section__one-container-1 {
+}
+
+.section__one-container-2 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.video__container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video__container video {
+  position: absolute;
+  height: 90%;
+}

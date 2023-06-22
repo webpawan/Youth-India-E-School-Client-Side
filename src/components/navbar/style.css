@@ -1,0 +1,43 @@
+.collapse {
+  position: relative;
+}
+
+.collapse form {
+  position: absolute;
+  left: 50%;
+  width: 35%;
+}
+
+.collapse form .search__input {
+  width: 100%;
+  border: 2px solid rgb(234, 232, 232);
+}
+
+.collapse form .search__input input {
+  border: none;
+  width: 95%;
+  font-size: 0.9rem;
+}
+
+.collapse form .search__input input::placeholder {
+  font-size: 0.9rem;
+}
+
+.search__input-icon {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.search__input input:focus,
+input:active {
+  border: none;
+  outline: none;
+}
+
+.search__input input .navbar-collapse ul li {
+  font-size: 0.9rem;
+}
+
+.navbar-collapse ul li span {
+  font-size: 0.8rem;
+}

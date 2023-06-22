@@ -1,0 +1,16 @@
+.section__four {
+  /* height: 100vh; */
+  /* min-height: 100vh; */
+  /* position: relative; */
+}
+
+.section__four--video-container {
+  position: relative;
+  min-height: 60vh;
+}
+
+.section__four-video {
+  position: absolute;
+  height: 100%;
+  /* padding: 3rem; */
+}
