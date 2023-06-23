@@ -14,7 +14,37 @@ const Sections__one = () => {
             Sign up for free
           </button>
         </div>
-        <div className="section__one-container-2 mt-3">
+        <div className="section__one-container-2 mt-3 ">
+          <div className="section__one-container-2-imgs d-none d-md-flex justify-content-between flex-column">
+            <div className="section__one-container--2-imgs-header d-flex justify-content-between">
+              <img
+                src="	https://content-management-files.canva.com/cdn-cgi/image/format=auto,w=300/22f18aa3-ac5c-45b6-bd4a-93fbfdd754f2/template-1.jpg"
+                alt=""
+                srcset=""
+                className=" p-4 "
+              />{" "}
+              <img
+                src="https://content-management-files.canva.com/cdn-cgi/image/format=auto,w=306/673b652f-2614-43ff-8647-81ecbdb04678/template-3.jpg"
+                alt=""
+                srcset=""
+                className=" m-5"
+              />
+            </div>
+            <div className="section__one-container--2-imgs-footer d-flex justify-content-between mt-5">
+              <img
+                src="https://content-management-files.canva.com/cdn-cgi/image/format=auto,w=454/b3bbd63b-12e6-43de-abe6-d6652fb3deea/template-2.jpg"
+                alt=""
+                srcset=""
+                className="mt-5 p-3 ms-5"
+              />{" "}
+              <img
+                src="https://content-management-files.canva.com/cdn-cgi/image/format=auto,w=340/35b5c343-4194-4ae8-90f1-7ec803d4600d/template-4.jpg"
+                alt=""
+                srcset=""
+                className="mt-5 "
+              />
+            </div>
+          </div>
           <div className="video__container mt-5">
             <video
               autoPlay

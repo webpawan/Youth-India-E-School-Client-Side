@@ -29,7 +29,31 @@
   justify-content: center;
 }
 
-.video__container video {
+.section__one-container-2-imgs {
+  /* background-color: red; */
   position: absolute;
   height: 100%;
+  width: 100%;
+}
+
+.section__one-container--2-imgs-header {
+  width: 90%;
+  height: 50%;
+  margin: auto;
+}
+
+.section__one-container--2-imgs-footer {
+  width: 90%;
+  height: 50%;
+  margin: auto;
+  /* background-color: pink; */
+}
+
+.section__one-container--2-imgs-footer img {
+  height: 60%;
+}
+
+.video__container video {
+  position: absolute;
+  height: 85%;
 }
