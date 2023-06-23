@@ -1,3 +1,15 @@
 p {
   width: 40%;
 }
+.sticky__footer {
+  padding: 0 10rem;
+  background-color: white;
+}
+
+.sticky__footer-pera {
+  font-size: 0.9rem;
+}
+
+.sticky__footer-span {
+  font-weight: 600;
+}

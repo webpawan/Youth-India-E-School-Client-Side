@@ -22,7 +22,7 @@ const Section__four = () => {
             <span className="special__text">business cards</span> or editing
             your next <span className="special__text">video.</span>
           </p>
-          <div className="section__four-btn mt-2">
+          <div className="section__four-btn mt-3">
             <button className="my__btn btn__purple">Create a design</button>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Section__four = () => {
             and scale content with tools like{" "}
             <span className="special__text">docs.</span>
           </p>
-          <div className="section__four-btn mt-2">
+          <div className="section__four-btn mt-3">
             <button className="my__btn btn__purple">Work together</button>
           </div>
         </div>
@@ -73,7 +73,7 @@ const Section__four = () => {
             you make in Canva. You can even have it printed and dropped straight
             at your door!
           </p>
-          <div className="section__four-btn mt-2">
+          <div className="section__four-btn mt-3">
             <button className="my__btn btn__purple ">Design your vesion</button>
           </div>
         </div>

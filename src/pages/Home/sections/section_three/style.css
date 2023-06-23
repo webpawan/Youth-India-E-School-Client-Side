@@ -9,6 +9,46 @@
   width: 100%;
 }
 .section__three-body h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 600;
+}
+
+.img__slider-container {
+  height: 50%;
+  position: relative;
+}
+
+.section__three-brands {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+}
+
+.section__three-brands::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 5%;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+  box-shadow: 20px 0px 10px 20px white;
+}
+
+.section__three-brands::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 5%;
+  top: 0;
+  right: 0;
+  background: white;
+  z-index: 10;
+  box-shadow: 20px 0px 10px 20px white;
+}
+
+.img__slider-container img {
+  height: 40px;
 }

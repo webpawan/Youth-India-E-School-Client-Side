@@ -1,0 +1,74 @@
+.main__footer {
+}
+
+.main__footer-hr {
+  flex-direction: column;
+  width: 95vw;
+  margin: auto;
+}
+.main__footer--sections-1 {
+  width: 100vw;
+  margin: auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-between;
+}
+.main__footer--sections-1 h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.main__footer--sections-1 p {
+  width: 100%;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+.main__footer-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(131, 131, 131);
+}
+.main__footer-pera {
+  display: flex;
+}
+
+.main__footer-language {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid rgb(215, 215, 215);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__footer-language span:first-child {
+  font-size: 1.3rem;
+}
+
+.main__footer-language :nth-child(2) {
+  font-size: 0.9rem;
+}
+
+.main__footer-language span:last-child {
+  font-size: 0.9rem;
+}
+
+.social__icons span:nth-child(1) {
+  color: #1877f2;
+  font-size: 1.3rem;
+}
+.social__icons span:nth-child(2) {
+  color: #1da1f2;
+  font-size: 1.3rem;
+}
+.social__icons span:nth-child(3) {
+  color: #f60f02;
+  font-size: 1.3rem;
+}
+.social__icons span:nth-child(4) {
+  color: #df0042;
+  font-size: 1.3rem;
+}

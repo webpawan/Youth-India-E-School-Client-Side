@@ -10,20 +10,20 @@ const Section__six = () => {
         Try Canva for Teams, the all-in-one solution for teams of all sizes to
         create and collaborate together.
       </p>
-      <div className="section__siz-body row mt-5 ">
+      <div className="section__siz-body row my-4 ">
         <div className="col-11 col-md-5 mx-auto px-5 mt-5 pt-4">
           <ul>
-            <li className="d-flex ">
-              <span className="mx-3">
+            <li className="d-flex mb-4">
+              <span className="mx-3 span__icon">
                 <i class="fa-regular fa-folder-closed"></i>
               </span>
               <p className="w-100">
-                Team folders help you stay organised, store brand assets, and
-                manage content
+                <span> Team folders</span> help you stay organised, store brand
+                assets, and manage content
               </p>
             </li>
-            <li className="d-flex ">
-              <span className="mx-3">
+            <li className="d-flex mb-4">
+              <span className="mx-3 span__icon">
                 <i class="fa-solid fa-mobile"></i>
               </span>
               <p className="w-100">
@@ -31,8 +31,8 @@ const Section__six = () => {
                 directly from Canva
               </p>
             </li>{" "}
-            <li className="d-flex ">
-              <span className="mx-3">
+            <li className="d-flex mb-4">
+              <span className="mx-3 span__icon">
                 <i class="fa-solid fa-user-plus"></i>
               </span>
               <p className="w-100 ">
@@ -40,8 +40,8 @@ const Section__six = () => {
                 departments
               </p>
             </li>{" "}
-            <li className="d-flex ">
-              <span className="mx-3">
+            <li className="d-flex mb-4">
+              <span className="mx-3 span__icon">
                 <i class="fa-regular fa-comment"></i>
               </span>
               <p className="w-100">
@@ -62,7 +62,7 @@ const Section__six = () => {
           ></video>
         </div>
       </div>
-      <button className="">Try Canva for Team</button>
+      <button className="mt-5 my__btn btn__purple">Try Canva for Team</button>
     </div>
   );
 };

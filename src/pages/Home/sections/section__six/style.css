@@ -9,11 +9,18 @@
 
 .section__six p {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: rgb(108, 108, 108);
 }
+
 .section__six ul {
   list-style: none;
 }
-.section__six ul li {
+
+.span__icon {
+  font-size: 1.6rem;
+}
+.section__six ul li p span {
+  font-weight: bolder;
+  color: black;
 }

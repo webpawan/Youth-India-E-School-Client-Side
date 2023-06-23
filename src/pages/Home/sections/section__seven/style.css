@@ -1,3 +1,39 @@
 .section__seven {
-  height: 80vh;
+  /* height: 80vh; */
+}
+
+.section__seven h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.section__seven p {
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.section__seven--img-container {
+  overflow: hidden;
+  height: 250px;
+}
+
+.section__seven--img-container img {
+  transition: all 0.4s;
+  overflow: hidden;
+  height: 100%;
+}
+
+.section__seven--img-container:hover img {
+  transform: scale(1.05);
+}
+
+.section__seven--carousel-title {
+  margin: 0;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+.section__seven--carousel-pera {
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
